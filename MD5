@@ -1,13 +1,13 @@
-2824419d02b09b7f3b43bf9595b98834 *DESCRIPTION
+a7adaa8d4aaaf090642ab6e2d14b92d1 *DESCRIPTION
 66673342bb3bfaf75d863d00f85726d5 *NAMESPACE
 9bdb4402c7e646fd8d185bdcaaeacfd5 *R/assign_to_R_env.R
 70cc82b6a9c2fcc347503a128a671f30 *R/clean_path_name.R
-8ef3694342e86a8245820c438179446d *R/clear.R
+6f910e49343c0807150da9c1140de77b *R/clear.R
 c47e608cc736b299074917a0894a4ca6 *R/close_all_connections.R
 f87fa2ccf16c82bea288c0de48bad61f *R/dot_helper.R
 a080d95097c223719ea2772f547d60e3 *R/equals2.R
 35c687c46385b81e08c27000c57a288c *R/feedback.R
-ee1a2045da09c3718a44f6255b5c11a8 *R/firstup.R
+15cd5858d3aca6423465e3511ce228d2 *R/firstup.R
 5bc359cdae917e37a39cecee5a3c6e0f *R/format_POSIXct.R
 2d4d9b3f5ed868d8a13dc5c8391af6cd *R/get_config.R
 5fd6001f1003d3040dfd7a7e9f64d0d9 *R/get_current_timestamp.R
@@ -18,11 +18,11 @@ eaf91344245c4755e702edb8846d9a43 *R/rep2.R
 2c96c133ebf719506e649a8d20e5ff93 *R/setenv2.R
 b4a36442317674cae1eb999eab387a3f *R/setenv_file.R
 15f08456d2fababfe52f55b41f1738a3 *R/string_replacements.R
-657c753525d719d9543a7fefd189a87b *README.md
+9860c6067bec880399d50aac25805b5c *README.md
 eb96f4ab82b830fd318b01c40208988a *man/assign_to_R_env.Rd
 1198576372a87e1c713c257fd000fd08 *man/clean_path_name.Rd
 04054d9ac67a0f3cb840ef7359e98f48 *man/cleanup_old_logfile.Rd
-c37b3bea7e96b1f23af2c96f55724753 *man/clear.Rd
+960def167fccd49189240005e90a8060 *man/clear.Rd
 d2da488183c559e8eeae782156c4c4f5 *man/close_all_connections.Rd
 489f07a01f20e8451d497b48abd7eb42 *man/dot_helper.Rd
 7c75920c1142b641f12f1ab2c6e12cb4 *man/equals2.Rd
@@ -32,7 +32,7 @@ bbd509d394c62ee0671aa14912b47b1d *man/feedback_to_console.Rd
 495adec0d015601a99c46f367c5cc878 *man/feedback_to_logfile.Rd
 23eaa2d0c1b32c88c33489be9f240da7 *man/feedback_to_logjs.Rd
 e40a45bc7937f2601cffebc14a6b1891 *man/feedback_to_ui.Rd
-fe939821a0fd0258512df0f0cb345b00 *man/firstup.Rd
+42a93be54fcc52cc583193f227b8cd05 *man/firstup.Rd
 b8804a2a5befd9a3acdf6c0af3b69ce8 *man/format_posixct.Rd
 7d143b2f02b58b18c3d859869fdfb191 *man/get_config.Rd
 5808f946e6e775eca70f192755e2aa59 *man/get_current_timestamp.Rd
@@ -49,5 +49,5 @@ da217c05f749963cd207445fdd70f449 *man/setenv2.Rd
 298d5f1664bec04fcfe227508e620ed2 *man/setenv_file.Rd
 72f5d5a7fd9e38ceba33f115bbdbe560 *man/string_replacements.Rd
 0b80f1d33ff8e0d303d8e8e3a53c3bac *tests/testthat.R
+5381528d13bd5a2a91886ac8d765dac5 *tests/testthat/test-feedback.R
 8c4554a687887a0e7193a74a1c1c7bbe *tests/testthat/test-lints.R
-5381528d13bd5a2a91886ac8d765dac5 *tests/testthat/test-log.R
