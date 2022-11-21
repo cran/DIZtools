@@ -13,21 +13,9 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
 
 
-if (dir.exists("../../00_pkg_src")) {
-  prefix <- "../../00_pkg_src/DIZtools/"
-} else if (dir.exists("../../R")) {
-  prefix <- "../../"
-} else if (dir.exists("./R")) {
-  prefix <- "./"
-}
-
-test_that(
-  desc = "test lints",
-  code = {
-    skip_on_cran()
-    skip_if(dir.exists("../../00_pkg_src"))
-    lintr::expect_lint_free(path = prefix)
-  })
+#' @importFrom magrittr "%>%"
+#' @importFrom data.table ".N"
+#'
+NULL
