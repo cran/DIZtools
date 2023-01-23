@@ -1,7 +1,7 @@
 Package: DIZtools
 Title: Lightweight Utilities for 'DIZ' R Package Development
-Version: 0.0.6
-Date: 2022-11-21
+Version: 0.0.7
+Date: 2023-01-23
 Authors@R: c(
     person("Jonathan M.", "Mang", , "jonathan.mang@uk-erlangen.de", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-0518-4710")),
@@ -23,9 +23,9 @@ Imports: cleaR, config, data.table, logger, magrittr, parsedate
 Suggests: lintr, shiny, shinyjs, testthat
 Encoding: UTF-8
 Language: en-US
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2022-11-21 11:49:40 UTC; user
+Packaged: 2023-01-23 13:14:09 UTC; user
 Author: Jonathan M. Mang [aut, cre] (<https://orcid.org/0000-0003-0518-4710>),
   Lorenz A. Kapsner [aut] (<https://orcid.org/0000-0003-1866-860X>),
   MIRACUM - Medical Informatics in Research and Care in University
@@ -33,4 +33,4 @@ Author: Jonathan M. Mang [aut, cre] (<https://orcid.org/0000-0003-0518-4710>),
   Universitätsklinikum Erlangen, Germany [cph]
 Maintainer: Jonathan M. Mang <jonathan.mang@uk-erlangen.de>
 Repository: CRAN
-Date/Publication: 2022-11-21 12:40:13 UTC
+Date/Publication: 2023-01-23 14:40:08 UTC
