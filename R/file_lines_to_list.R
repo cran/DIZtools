@@ -14,19 +14,26 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#' @title Checks if a string matches a given date format.
-#'
-#' @description Checks if a string matches a given date format.
-#'
-#' @param date The list applied from rv$restricting_date
-#' @param format The format parameters. See \code{?strptime}
-#'   for parameter info.
-#'
-#' @return TRUE/FALSE
-#'
+#' @title Read in lines from a file and store it in a list.
+#' @description Read in lines from a file and store it in a list.
+#' @param filepath (string) Path to file to read in.
+#' @return A list with one element per row of the input file
 #' @export
 #'
-is_date_format <- function(date, format) {
-  formatted <- try(as.Date(date, format), silent = TRUE)
-  return(DIZtools::equals2(as.character(formatted), date))
+file_lines_to_list = function(filepath) {
+  nr_of_lines <- R.utils::countLines(filepath)
+  con_input = file(filepath, "r")
+
+  res <- vector("list", length = nr_of_lines)
+
+  for (l in 1:nr_of_lines) {
+    line = readLines(con_input, n = 1)
+    if (length(line) == 0) {
+      break
+    }
+    res[[l]] <- line
+  }
+  close(con_input)
+
+  return(res)
 }
