@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#' @title Clean the console and environment-variables
+#' @title Clean the console and environment-variables.
 #'
 #' @description Function to clean the local environment.
 #'   The call of this function clears the console and the local environment
@@ -41,7 +41,7 @@ clear <- function(keep_environment = FALSE,
       " This time, your call of `DIZtools::clear()` will be redirected",
       " directly to `cleaR::clear()` but it will be removed from `DIZtools`",
       " in the near future. So update your code to avoid it to break with",
-      " later releases of `DIZutils` by simply replacing `DIZtools::clear()`",
+      " later releases of `DIZtools` by simply replacing `DIZtools::clear()`",
       " with `cleaR::clear()`."
     ),
     type = "Warning",
