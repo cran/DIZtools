@@ -1,6 +1,13 @@
 # DIZtools NEWS
 
-## Unreleased (2023-08-29)
+## Unreleased (2023-08-30)
+
+#### New features
+
+-   adds function `paste_pct_sum()`
+    ([e017c00](https://gitlab.miracum.org/miracum/misc/diztools/tree/e017c00f17c45279035bd78e98464dfe62b5108c))
+
+## v1.0.0 (2023-08-29)
 
 #### New features
 
@@ -29,6 +36,8 @@
 
 #### Other changes
 
+-   manually updated news.md due to moved urls
+    ([e950968](https://gitlab.miracum.org/miracum/misc/diztools/tree/e950968000fcc98d8e809eb558ab8075466f0f93))
 -   preparing new release `1.0.0`
     ([b07f724](https://gitlab.miracum.org/miracum/misc/diztools/tree/b07f7240676307af6a6a627006f962f3fa26a4d6))
 -   removed NEWS.md from buildignore since it is supported by CRAN now
@@ -47,7 +56,7 @@
     ([7116495](https://gitlab.miracum.org/miracum/misc/diztools/tree/71164954057a66b1a36f6ffb68638653cc5baf2f))
 
 Full set of changes:
-[`v0.0.8...b07f724`](https://gitlab.miracum.org/miracum/misc/diztools/-/compare/v0.0.8...b07f724)
+[`v0.0.8...v1.0.0`](https://gitlab.miracum.org/miracum/misc/diztools/-/compare/v0.0.8...v1.0.0)
 
 ## v0.0.8 (2023-03-16)
 
