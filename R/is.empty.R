@@ -1,5 +1,5 @@
 # DIZtools - Utilities for 'DIZ' R Package Development
-# Copyright (C) 2020-2023 Universitätsklinikum Erlangen, Germany
+# Copyright (c) 2020-2025 Universitätsklinikum Erlangen, Germany
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -71,7 +71,7 @@ is.empty <- function(x, trim = TRUE, all = FALSE, ...) {
       return(TRUE)
     }
     return(FALSE)
-  } else{
+  } else {
     if (isTRUE(all)) {
       all(unlist(sapply(
         x, is.empty, trim = trim, all = all, ...

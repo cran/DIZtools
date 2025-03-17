@@ -1,11 +1,50 @@
 # DIZtools NEWS
 
-## Unreleased (2023-08-30)
+## Unreleased (2024-05-23)
+
+#### Bug fixes
+
+-   updated files and fixed lintr config
+    ([102ca91](https://gitlab.miracum.org/miracum/misc/diztools/tree/102ca916e0ab258f820b121108705194f4a8ff6b))
+
+#### CI
+
+-   fixing ci
+    ([72d5242](https://gitlab.miracum.org/miracum/misc/diztools/tree/72d524209d6dc5dddaee36ae7961d995ea06945e))
+
+#### Other changes
+
+-   updated desc file
+    ([6756010](https://gitlab.miracum.org/miracum/misc/diztools/tree/67560108384cd7b622f55bd422ee5a5dfeaec6b1))
+
+Full set of changes:
+[`v1.0.1...102ca91`](https://gitlab.miracum.org/miracum/misc/diztools/-/compare/v1.0.1...102ca91)
+
+## v1.0.1 (2023-09-18)
 
 #### New features
 
+-   adds argument `lower_indicator` to `robust_round()`
+    ([3b0ca57](https://gitlab.miracum.org/miracum/misc/diztools/tree/3b0ca579881a9cbdb85e668571db78e74de87d27))
 -   adds function `paste_pct_sum()`
     ([e017c00](https://gitlab.miracum.org/miracum/misc/diztools/tree/e017c00f17c45279035bd78e98464dfe62b5108c))
+
+#### Tests
+
+-   fixed test for `robust_round()`
+    ([beb451a](https://gitlab.miracum.org/miracum/misc/diztools/tree/beb451a740a44b653935cb6a0bc097128636c1b8))
+
+#### Other changes
+
+-   manually corrected moved links in news.md
+    ([bd462df](https://gitlab.miracum.org/miracum/misc/diztools/tree/bd462df775e9bca2a9534bcafd6c5febdc91c46b))
+-   new CRAN release `1.0.1`
+    ([181bd6d](https://gitlab.miracum.org/miracum/misc/diztools/tree/181bd6d8243a5ed8d27d0673e845f1e2f7c1cf6d))
+-   removed names from return argument
+    ([d4470a2](https://gitlab.miracum.org/miracum/misc/diztools/tree/d4470a29525947194adfaf4e6978a68d70d0a34f))
+
+Full set of changes:
+[`v1.0.0...v1.0.1`](https://gitlab.miracum.org/miracum/misc/diztools/-/compare/v1.0.0...v1.0.1)
 
 ## v1.0.0 (2023-08-29)
 

@@ -1,5 +1,5 @@
 # DIZtools - Utilities for 'DIZ' R Package Development
-# Copyright (C) 2020-2023 Universitätsklinikum Erlangen, Germany
+# Copyright (c) 2020-2025 Universitätsklinikum Erlangen, Germany
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -30,19 +30,19 @@
 #' @export
 trim.space <-
   function(x,
-           what = c('both', 'leading', 'trailing', 'none'),
-           space.regex = '[:space:]',
+           what = c("both", "leading", "trailing", "none"),
+           space.regex = "[:space:]",
            ...) {
     if (missing(x))
-      stop('nothing to trim spaces to =(')
+      stop("nothing to trim spaces to =(")
     re <- switch(
       match.arg(what),
-      both     = sprintf('^[%s]+|[%s]+$', space.regex, space.regex),
-      leading  = sprintf('^[%s]+', space.regex),
-      trailing = sprintf('[%s]+$', space.regex),
+      both     = sprintf("^[%s]+|[%s]+$", space.regex, space.regex),
+      leading  = sprintf("^[%s]+", space.regex),
+      trailing = sprintf("[%s]+$", space.regex),
       none     = {
         return(x)
       }
     )
-    vgsub(re, '', x, ...)
+    vgsub(re, "", x, ...)
   }

@@ -1,5 +1,5 @@
 # DIZtools - Utilities for 'DIZ' R Package Development
-# Copyright (C) 2020-2023 Universitätsklinikum Erlangen, Germany
+# Copyright (c) 2020-2025 Universitätsklinikum Erlangen, Germany
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -21,8 +21,8 @@
 #'   in an iteration process, or the estimated time of arrival by just
 #'   providing the current and total iteration step(s).
 #'   A more fancy option might be the package
-#'   \href{https://github.com/HenrikBengtsson/progressr}{progressr}.
-#'   See \href{https://github.com/HenrikBengtsson/future.apply/issues/34#issuecomment-549011124}{progressr}
+#'   \href{https://github.com/futureverse/progressr}{progressr}.
+#'   See \href{https://github.com/futureverse/future.apply/issues/34#issuecomment-549011124}{progressr}
 #'   for a corresponding code snippet.
 #' @param older_timestamp (POSIXct) Start time.
 #' @param newer_timestamp (POSIXct, Optional) End time. If not set, the current

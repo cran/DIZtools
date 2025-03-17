@@ -1,5 +1,5 @@
 # DIZtools - Utilities for 'DIZ' R Package Development
-# Copyright (C) 2020-2023 Universitätsklinikum Erlangen, Germany
+# Copyright (c) 2020-2025 Universitätsklinikum Erlangen, Germany
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
 #'
 file_lines_to_list = function(filepath) {
   nr_of_lines <- R.utils::countLines(filepath)
-  con_input = file(filepath, "r")
+  con_input <- file(filepath, "r")
 
   res <- vector("list", length = nr_of_lines)
 
